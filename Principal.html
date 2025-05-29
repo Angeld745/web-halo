@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <title>Halo - Cronología</title>
+</head>
+
+<!-- frameset divide la página en filas y columnas -->
+<frameset rows="100,*"> <!-- Primera fila 100px (encabezado), el resto para contenido -->
+  <!-- Primer marco: encabezado -->
+  <frame src="header.html" name="encabezado">
+
+  <!-- Segunda parte dividida en 2 columnas -->
+  <frameset cols="200,*"> <!-- Primera columna 200px (menú), el resto para contenido -->
+    <!-- Marco izquierdo (menú de navegación) -->
+    <frame src="menu.html" name="menu">
+
+    <!-- Marco derecho (contenido principal) -->
+    <frame src="cronología.html" name="contenido">
+  </frameset>
+</frameset>
+</html>
